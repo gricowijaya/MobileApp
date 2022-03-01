@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Latihan 3</string>
+    <string name="tanda_tambah">+</string>
+    <string name="tanda_kurang">-</string>
+    <string name="reset">RESET</string>
+    <string name="judul">Judul Aktivitas</string>
+</resources>
