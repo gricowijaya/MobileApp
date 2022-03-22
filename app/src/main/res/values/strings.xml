@@ -4,4 +4,10 @@
     <string name="tanda_kurang">-</string>
     <string name="reset">RESET</string>
     <string name="judul">Judul Aktivitas</string>
+    <string name="counter">Jumlah Counter</string>
+    <string name="kirim">Kirim</string>
+    <string name="camera">Tekan untuk Foto</string>
+    <string name="nama_menu">Nama Makanan : </string>
+    <string name="harga_menu">Harga : </string>
+    <string name="simpan">Simpan</string>
 </resources>

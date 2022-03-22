@@ -3,25 +3,40 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".activity.MainActivity"
     android:orientation="vertical"
     android:weightSum="20"
     android:background="@drawable/background">
 
-    <EditText
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
         android:layout_weight="1"
-        android:inputType="text"
-        android:hint="@string/judul"
-        android:textAlignment="center"
-        android:textSize="25sp"
-        android:textColor="#139487"
-        android:lines="1"
-        android:maxLines="1"
-        android:textStyle="italic"/>
+        android:layout_margin="20dp"
+        android:weightSum="5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/judul_aktivitas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="22dp"
+            android:layout_weight="1"
+            android:inputType="text"
+            android:hint="@string/judul"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="italic"/>
+
+        <Button
+            android:id="@+id/kirim_button"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight= "3.5"
+            android:text="@string/kirim"/>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,6 +44,7 @@
         android:layout_weight="16"
         android:background="@color/xanandu">
         <TextView
+            android:id="@+id/angka"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
@@ -44,9 +60,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="3"
-        android:weightSum="5"
         android:orientation="horizontal">
         <Button
+            android:id="@+id/button_kurang"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/tanda_kurang"
@@ -56,15 +72,19 @@
             android:textStyle="bold"
             android:layout_weight="2"/>
         <Button
+            android:id="@+id/button_reset"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="@string/reset"
             android:backgroundTint="@color/granny_apple"
+            android:text="@string/reset"
             android:textColor="@color/emerald"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            />
+
         <Button
+            android:id="@+id/button_tambah"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="@string/tanda_tambah"
