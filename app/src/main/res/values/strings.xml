@@ -10,4 +10,28 @@
     <string name="nama_menu">Nama Makanan : </string>
     <string name="harga_menu">Harga : </string>
     <string name="simpan">Simpan</string>
+    <string name="fullName">Nama Lengkap</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="major">Program Studi</string>
+    <string name="hobby">Hobi</string>
+    <string name="address">Alamat Domisili</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="about_us">About Us</string>
+    <string name="allowNotification">Aktifkan Notifikasi ?</string>
+    <string name="send">Send</string>
+    <string name="formTitle">Formulir Pendaftaran Mahasiswa</string>
+    <string name="NIM">NIM</string>
+    <string-array name="majorList">
+        <item>Teknologi Informasi</item>
+        <item>Teknik Arsitektur</item>
+        <item>Teknik Lingkungan</item>
+        <item>Teknik Elektro</item>
+        <item>Teknik Mesin</item>
+        <item>Teknik Pertanian</item>
+        <item>Teknik Perikanan</item>
+        <item>Teknik Sipil</item>
+        <item>Teknik Industri</item>
+    </string-array>
 </resources>
