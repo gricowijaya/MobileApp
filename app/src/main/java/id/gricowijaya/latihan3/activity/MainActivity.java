@@ -83,11 +83,16 @@ public class MainActivity extends AppCompatActivity {
         // Handle item selection
         switch (item.getItemId()) {
             case R.id.register:
-                Intent goToClock = new Intent(getApplicationContext(), RegistrationFormActivity.class);
-                startActivityForResult(goToClock, 1);
+                Intent goToRegister = new Intent(getApplicationContext(), RegistrationFormActivity.class);
+                startActivityForResult(goToRegister, 1);
                 return true;
             case R.id.login:
-                // showHelp();
+                Intent goToLogin = new Intent(getApplicationContext(), LoginPageActivity.class);
+                startActivityForResult(goToLogin, 1);
+                return true;
+            case R.id.about_us:
+                Intent goToAboutUs = new Intent(getApplicationContext(), AboutUsActivity.class);
+                startActivityForResult(goToAboutUs, 1);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
