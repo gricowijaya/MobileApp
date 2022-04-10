@@ -23,6 +23,14 @@
     <string name="send">Send</string>
     <string name="formTitle">Formulir Pendaftaran Mahasiswa</string>
     <string name="NIM">NIM</string>
+    <string name="name">Gede Rico Wijaya</string>
+    <string name="myNIM">2005551091</string>
+    <string name="back">BACK</string>
+    <string name="backConfirmation">Apakah Anda Ingin kembali ?</string>
+    <string name="backTitle">Kembali ke Menu Sebelumnya</string>
+    <string name="confirm">Ya</string>
+    <string name="deny">Tidak</string>
+    <string name="homeTitle">Mobile App Practice, Menu</string>
     <string-array name="majorList">
         <item>Teknologi Informasi</item>
         <item>Teknik Arsitektur</item>
