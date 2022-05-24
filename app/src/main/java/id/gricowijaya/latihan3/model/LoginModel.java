@@ -48,7 +48,11 @@ public class LoginModel extends DialogFragment {
 
     public void notification(Context context, EditText name) {
         int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, name.getText(), duration);
+        if (name.getText().toString() != "Rico") {
+            Toast toast_error = Toast.makeText(context, "Salah Password", duration);
+            toast_error.show();
+        }
+        Toast toast = Toast.makeText(context, "Berhasil Login " + name.getText(), duration);
         toast.show();
     }
 }
